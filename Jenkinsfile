@@ -16,7 +16,7 @@ pipeline {
         sh 'ls'
       }
     }
-    stage('Instalacion de dependencias prueba') {
+    stage('Instalacion de dependencias carlos') {
       steps {
         nodejs('node') {
             sh '''npm --version'''
