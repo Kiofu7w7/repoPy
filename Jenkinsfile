@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Ls prueba de archivos') {
       steps {
-        sh 'ls'
+        sh 'ls -la'
       }
     }
     stage('Instalacion de dependencias carlos') {
